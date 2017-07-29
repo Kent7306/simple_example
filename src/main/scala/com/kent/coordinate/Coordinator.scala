@@ -1,7 +1,6 @@
 package com.kent.coordinate
 
 import java.util.Date
-import com.kent.unclassify.WorkFlow
 import java.util.Calendar
 import java.text.SimpleDateFormat
 import scala.xml.XML

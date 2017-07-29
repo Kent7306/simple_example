@@ -30,7 +30,7 @@ class Master2 extends Actor {
         val worker = context.actorOf(Props[Worker2])
         (worker ? SubSum(x)).mapTo[Result]
       }.toList
-      Future.sequence(resultsF).map{}
+      Future.sequence(resultsF).map{???}
       
   }
 }
